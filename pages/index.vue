@@ -2,11 +2,13 @@
   <div>
     <div id="navigation" class="container max-w-5xl px-4 mx-auto">
       <div class="flex items-center mt-10 mb-32">
-        <img
-          src="~/assets/images/logo.png"
-          alt="Stroup Styles logo"
-          class="mr-5"
-        />
+        <nuxt-link to="/">
+          <img
+            src="~/assets/images/logo.png"
+            alt="Stroup Styles logo"
+            class="mr-5"
+          />
+        </nuxt-link>
         <a
           href="#about"
           class="text-primary hover:text-primary-hover mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
@@ -42,6 +44,7 @@
         <form
           name="contact"
           method="POST"
+          action="/success"
           netlify-honeypot="name"
           data-netlify="true"
         >
