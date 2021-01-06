@@ -1,4 +1,38 @@
+/* FONT DECLARATIONS */
+
 @font-face {
   font-family: "Cervanttis";
-  src: url("../fonts/Cervanttis.ttf") format("truetype");
+  src: url("../fonts/Cervanttis-Regular.ttf") format("truetype");
+}
+
+/* @font-face {
+  font-family: "Baskerville";
+  src: url("../fonts/LibreBaskerville-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Baskerville";
+  src: url("../fonts/LibreBaskerville-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Baskerville";
+  src: url("../fonts/LibreBaskerville-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+} */
+
+/* GLOBAL PAGE TRANSITIONS */
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
 }
