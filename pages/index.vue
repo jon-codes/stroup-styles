@@ -5,21 +5,21 @@
         <img
           src="~/assets/images/logo.png"
           alt="Stroup Styles logo"
-          class="mr-4"
+          class="mr-5"
         />
         <a
           href="#about"
-          class="text-primary hover:text-primary-hover mr-4 italic font-semibold tracking-normal transition duration-200 ease-in-out"
+          class="text-primary hover:text-primary-hover mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
           >About Me</a
         >
         <a
           href="#instagram"
-          class="text-primary hover:text-primary-hover mr-4 italic font-semibold tracking-normal transition duration-200 ease-in-out"
+          class="text-primary hover:text-primary-hover mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
           >See Styles</a
         >
         <a
           href="#contact"
-          class="text-primary hover:text-primary-hover mr-4 italic font-semibold tracking-normal transition duration-200 ease-in-out"
+          class="text-primary hover:text-primary-hover mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
           >Get Connected</a
         >
       </div>
@@ -39,19 +39,22 @@
           excitement in the small in-betweens. I'd love to get to know you and
           your story. If you have any questions just message me below:
         </p>
-        <form>
+        <form name="contact" method="POST" data-netlify="true">
           <input
             type="email"
+            name="email"
             placeholder="Email"
             class="border-light text-body placeholder-light hover:border-primary focus:border-primary focus:outline-none w-full px-3 py-1 mb-1 italic transition duration-200 ease-in-out border-2 rounded"
           />
           <textarea
             placeholder="Tell me about yourself..."
+            name="message"
             class="border-light text-body placeholder-light hover:border-primary focus:border-primary focus:outline-none w-full px-3 py-1 mb-6 italic transition duration-200 ease-in-out border-2 rounded resize-none"
             rows="2"
           />
           <div class="grid grid-flow-col">
             <button
+              type="sumbit"
               class="bg-primary hover:bg-primary-hover focus:outline-none px-6 py-2 italic text-white transition duration-200 ease-in-out rounded"
             >
               Get connected!
