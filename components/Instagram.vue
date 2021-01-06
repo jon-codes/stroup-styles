@@ -14,6 +14,7 @@
         allowtransparency="true"
         class="lightwidget-widget xl:block hidden"
         style="width: 100%; border: 0; overflow: hidden"
+        title="Stroup Styles Instagram Feed"
       ></iframe>
 
       <!-- Mobile -->
