@@ -28,7 +28,7 @@
       </div>
       <div id="testimonials-main-left" class="col-span-6">
         <img
-          src="~/assets/images/bride-1.png"
+          src="~/assets/images/bride-1.webp"
           height="380"
           width="380"
           alt="Photo of Abigail Krause hairstyle"
@@ -114,7 +114,7 @@
       </div>
       <div id="testimonials-main-center" class="self-center col-span-10 mx-4">
         <img
-          src="~/assets/images/bride-1.png"
+          src="~/assets/images/bride-1.webp"
           height="380"
           width="380"
           class="mx-auto mb-4"

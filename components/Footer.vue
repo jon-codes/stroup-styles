@@ -3,7 +3,7 @@
     <div class="flex justify-center mb-4">
       <a href="https://www.instagram.com/stroupstyles/" target="_none">
         <img
-          src="~/assets/images/instagram.png"
+          src="~/assets/images/instagram.webp"
           alt="Instagram logo"
           height="48"
           width="48"

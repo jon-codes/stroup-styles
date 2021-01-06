@@ -83,7 +83,7 @@
       class="xl:block xl:absolute xl:top-0 xl:right-0 xl:mr-12 hidden"
     >
       <img
-        src="~/assets/images/cta.png"
+        src="~/assets/images/cta.webp"
         width="599"
         height="770"
         alt="Stylized photo of hair design with logo"

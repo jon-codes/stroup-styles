@@ -1,7 +1,7 @@
 <template>
   <div id="about" class="container max-w-lg px-4 mx-auto mt-20">
     <img
-      src="~/assets/images/about.png"
+      src="~/assets/images/about.webp"
       alt="Photo of Kathryn Stroup"
       height="392px"
       width="489px"

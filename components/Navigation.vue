@@ -3,7 +3,7 @@
     <div class="xl:mt-20 xl:mb-32 xl:mx-0 flex items-center mx-auto mt-6 mb-12">
       <nuxt-link to="/">
         <img
-          src="~/assets/images/logo.png"
+          src="~/assets/images/logo.webp"
           alt="Stroup Styles logo"
           width="166"
           height="38"
