@@ -8,20 +8,20 @@
           class="mr-5"
         />
       </nuxt-link>
-      <a
-        href="#about"
+      <nuxt-link
+        to="/#about"
         class="text-primary hover:text-primary-hover mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
-        >About Me</a
+        >About Me</nuxt-link
       >
-      <a
-        href="#instagram"
+      <nuxt-link
+        to="/#instagram"
         class="text-primary hover:text-primary-hover mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
-        >See Styles</a
+        >See Styles</nuxt-link
       >
-      <a
-        href="#contact"
+      <nuxt-link
+        to="/#contact"
         class="text-primary hover:text-primary-hover mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
-        >Get Connected</a
+        >Get Connected</nuxt-link
       >
     </div>
   </div>
