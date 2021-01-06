@@ -4,10 +4,12 @@
     class="container grid max-w-sm grid-flow-col col-gap-20 px-4 mx-auto mb-32 text-center"
   >
     <div id="cta-main" class="max-w-sm">
-      <h1 class="text-secondary font-display mb-8 text-5xl">Message sent!</h1>
-      <p class="text-body mb-8">
-        Great to hear from you! Your message was delivered to me and I will be
-        in touch shortly.
+      <h1 class="text-secondary font-display mb-8 text-5xl">I'm sorry!</h1>
+      <p v-if="error.statusCode === 404" class="text-body mb-8">
+        The requested page was not found.
+      </p>
+      <p v-else class="text-body mb-8">
+        An error seems to have occurred on our end.
       </p>
       <nuxt-link
         to="/"
@@ -20,7 +22,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["error"],
+};
 </script>
 
 <style></style>
