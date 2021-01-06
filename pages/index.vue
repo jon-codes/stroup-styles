@@ -1,6 +1,6 @@
 <template>
-  <div class="container max-w-5xl px-4 mx-auto">
-    <div id="navigation mx-auto">
+  <div>
+    <div id="navigation" class="container max-w-5xl px-4 mx-auto">
       <div class="flex items-center mt-10 mb-32">
         <img
           src="~/assets/images/logo.png"
@@ -9,23 +9,26 @@
         />
         <a
           href="#about"
-          class="text-primary hover:opacity-75 mr-4 italic font-semibold tracking-normal transition duration-200 ease-in-out"
+          class="text-primary hover:text-primary-hover mr-4 italic font-semibold tracking-normal transition duration-200 ease-in-out"
           >About Me</a
         >
         <a
           href="#instagram"
-          class="text-primary hover:opacity-75 mr-4 italic font-semibold tracking-normal transition duration-200 ease-in-out"
+          class="text-primary hover:text-primary-hover mr-4 italic font-semibold tracking-normal transition duration-200 ease-in-out"
           >See Styles</a
         >
         <a
           href="#contact"
-          class="text-primary hover:opacity-75 mr-4 italic font-semibold tracking-normal transition duration-200 ease-in-out"
+          class="text-primary hover:text-primary-hover mr-4 italic font-semibold tracking-normal transition duration-200 ease-in-out"
           >Get Connected</a
         >
       </div>
     </div>
 
-    <div id="cta" class="grid max-w-3xl grid-flow-col col-gap-20 mx-auto">
+    <div
+      id="cta"
+      class="container grid max-w-3xl grid-flow-col col-gap-20 px-4 mx-auto"
+    >
       <div id="cta-main" class="max-w-sm">
         <h1 class="text-secondary font-display mb-8 text-5xl">
           Simply beautiful
@@ -49,7 +52,7 @@
           />
           <div class="grid grid-flow-col">
             <button
-              class="bg-primary hover:opacity-75 focus:outline-none px-6 py-2 italic text-white transition duration-200 ease-in-out rounded"
+              class="bg-primary hover:bg-primary-hover focus:outline-none px-6 py-2 italic text-white transition duration-200 ease-in-out rounded"
             >
               Get connected!
             </button>
@@ -65,25 +68,19 @@
                 height="15.675"
                 viewBox="0 0 15.054 15.675"
                 class="stroke-current"
+                style="
+                  fill: none;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 1.5px;
+                "
               >
-                <defs>
-                  <style>
-                    .a {
-                      fill: none;
-                      stroke-linecap: round;
-                      stroke-linejoin: round;
-                      stroke-width: 1.5px;
-                    }
-                  </style>
-                </defs>
                 <g transform="translate(0.75 1.061)">
                   <path
-                    class="a"
                     d="M7.5,18H21.054"
                     transform="translate(-7.5 -11.223)"
                   />
                   <path
-                    class="a"
                     d="M18,7.5l6.777,6.777L18,21.054"
                     transform="translate(-11.223 -7.5)"
                   />
@@ -126,7 +123,7 @@
         </div>
       </div> -->
     </div>
-    <div id="about" class="max-w-lg mx-auto mt-20">
+    <div id="about" class="container max-w-lg px-4 mx-auto mt-20">
       <img
         src="~/assets/images/about.png"
         alt=""
@@ -148,36 +145,35 @@
         <Signature class="-mr-10" />
       </div>
     </div>
-    <div id="testimonials" class="max-w-5xl">
+    <div id="testimonials" class="container max-w-5xl px-4 mx-auto mb-32">
       <div
         id="testimonials-main"
         class="grid grid-flow-col grid-cols-12 col-gap-10"
       >
         <div
           id="testimonials-arrow-left"
-          class="text-accent self-center col-span-2"
+          class="text-accent hover:text-primary self-center col-span-1"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="13.503"
             height="23.619"
             viewBox="0 0 13.503 23.619"
-            class="fill-current"
+            class="transition duration-200 ease-in-out cursor-pointer fill-current"
           >
             <path
-              class="a"
               d="M15.321,18l8.937-8.93a1.688,1.688,0,0,0-2.391-2.384L11.742,16.8a1.685,1.685,0,0,0-.049,2.327L21.86,29.32a1.688,1.688,0,0,0,2.391-2.384Z"
               transform="translate(-11.251 -6.194)"
             />
           </svg>
         </div>
-        <div id="testimonials-main-left" class="col-span-5">
-          <img src="~/assets/images/bride-1.png" />
+        <div id="testimonials-main-left" class="col-span-6">
+          <img src="~/assets/images/bride-1.png" height="380" width="380" />
         </div>
-        <div id="testimonials-main-right" class="col-span-5">
-          <h2 class="font-display -mb-7 -mr-3 text-3xl text-center">brides</h2>
-          <div class="bg-accent w-32 h-6 mx-auto mb-4"></div>
-          <h1 class="text-secondary text-5xl text-center">Abigail Krause</h1>
+        <div id="testimonials-main-right" class="self-center col-span-5">
+          <h2 class="font-display -mb-7 ml-20 text-3xl">brides</h2>
+          <div class="bg-accent w-32 h-6 mb-4 ml-10"></div>
+          <h1 class="text-secondary text-5xl">Abigail Krause</h1>
           <p>
             "Thank <b class="text-body italic uppercase">you</b> so much for
             everything you did to help make the day perfect!"
@@ -193,25 +189,16 @@
               height="15.675"
               viewBox="0 0 15.054 15.675"
               class="stroke-current"
+              style="
+                fill: none;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 1.5px;
+              "
             >
-              <defs>
-                <style>
-                  .a {
-                    fill: none;
-                    stroke-linecap: round;
-                    stroke-linejoin: round;
-                    stroke-width: 1.5px;
-                  }
-                </style>
-              </defs>
               <g transform="translate(0.75 1.061)">
+                <path d="M7.5,18H21.054" transform="translate(-7.5 -11.223)" />
                 <path
-                  class="a"
-                  d="M7.5,18H21.054"
-                  transform="translate(-7.5 -11.223)"
-                />
-                <path
-                  class="a"
                   d="M18,7.5l6.777,6.777L18,21.054"
                   transform="translate(-11.223 -7.5)"
                 />
@@ -219,15 +206,18 @@
             </svg>
           </a>
         </div>
-        <div id="testimonials-arrow-right" class="self-center col-span-2">
+        <div
+          id="testimonials-arrow-right"
+          class="text-accent hover:text-primary self-center col-span-1"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="13.503"
             height="23.616"
             viewBox="0 0 13.503 23.616"
+            class="transition duration-200 ease-in-out cursor-pointer fill-current"
           >
             <path
-              class="a"
               d="M20.679,18,11.742,9.07a1.681,1.681,0,0,1,0-2.384,1.7,1.7,0,0,1,2.391,0L24.258,16.8a1.685,1.685,0,0,1,.049,2.327L14.14,29.32a1.688,1.688,0,0,1-2.391-2.384Z"
               transform="translate(-11.246 -6.196)"
             />
@@ -235,17 +225,35 @@
         </div>
       </div>
     </div>
-    <div id="contact">
-      <h1>Let's Talk</h1>
-      <form action="submit">
-        <input type="email" placeholder="Email" />
-        <input type="textarea" placeholder="Tell me about yourself ..." />
-        <input type="submit" value="Get connected!" />
+    <div id="contact" class="bg-primary container max-w-full px-4 py-24">
+      <h1 class="font-display mb-8 text-5xl text-center text-white">
+        Let's Talk
+      </h1>
+
+      <form class="max-w-lg mx-auto text-center">
+        <input
+          type="email"
+          placeholder="Email"
+          class="hover:border-primary bg-primary focus:border-primary focus:outline-none w-full px-3 py-1 mb-1 text-lg italic text-white placeholder-white transition duration-200 ease-in-out border-2 border-white rounded"
+        />
+        <textarea
+          placeholder="Tell me about yourself..."
+          class="hover:border-primary bg-primary focus:border-primary focus:outline-none w-full px-3 py-1 mb-6 text-lg italic text-white placeholder-white transition duration-200 ease-in-out border-2 border-white rounded resize-none"
+          rows="2"
+        />
+        <button
+          class="bg-accent hover:bg-accent-hover focus:outline-none px-6 py-2 italic text-white transition duration-200 ease-in-out rounded"
+        >
+          Get connected!
+        </button>
       </form>
     </div>
-    <div id="instagram">
-      <h1>Shop the Look</h1>
-      <h2>on instagram</h2>
+    <div id="instagram" class="container max-w-lg px-4 mx-auto mt-20">
+      <h1 class="text-secondary text-5xl text-center">Shop the Look</h1>
+      <h2 class="font-display -mb-7 -mt-3 text-3xl text-center">
+        on instagram
+      </h2>
+      <div class="bg-accent w-48 h-6 mx-auto mb-4"></div>
       <div id="instagram-feed"></div>
     </div>
     <div id="footer"><p>© StroupStyles 2020.</p></div>

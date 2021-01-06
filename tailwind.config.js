@@ -21,9 +21,11 @@ module.exports = {
     extend: {
       colors: {
         "primary": "#a58e8e",
+        "primary-hover": "#bcaaaa",
         "secondary": "#ded0b9",
         "accent": "#ddcccf",
-        "dark-gray": "#4d4d4d",
+        "accent-hover": "#cfbdbf",
+        "body": "#4d4d4d",
         "light": "#dfe4e6",
       },
       spacing: { 7: "1.75rem" },
