@@ -5,6 +5,8 @@
         <img
           src="~/assets/images/logo.png"
           alt="Stroup Styles logo"
+          width="166"
+          height="38"
           class="sm:mr-5"
         />
       </nuxt-link>

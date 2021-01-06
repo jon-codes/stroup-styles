@@ -2,7 +2,7 @@
   <div id="about" class="container max-w-lg px-4 mx-auto mt-20">
     <img
       src="~/assets/images/about.png"
-      alt=""
+      alt="Photo of Kathryn Stroup"
       height="392px"
       width="489px"
       class="mx-auto mb-10"

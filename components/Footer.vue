@@ -4,7 +4,7 @@
       <a href="https://www.instagram.com/stroupstyles/" target="_none">
         <img
           src="~/assets/images/instagram.png"
-          alt=""
+          alt="Instagram logo"
           height="48"
           width="48"
         />

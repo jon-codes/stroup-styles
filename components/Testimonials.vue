@@ -27,7 +27,12 @@
         </svg>
       </div>
       <div id="testimonials-main-left" class="col-span-6">
-        <img src="~/assets/images/bride-1.png" height="380" width="380" />
+        <img
+          src="~/assets/images/bride-1.png"
+          height="380"
+          width="380"
+          alt="Photo of Abigail Krause hairstyle"
+        />
       </div>
       <div id="testimonials-main-right" class="self-center col-span-5">
         <h2 class="xl:block font-display -mb-7 hidden ml-20 text-3xl">
@@ -113,6 +118,7 @@
           height="380"
           width="380"
           class="mx-auto mb-4"
+          alt="Photo of Abigail Krause hairstyle"
         />
         <h1 class="text-secondary mb-4 text-5xl leading-none text-center">
           Abigail Krause

@@ -11,6 +11,7 @@
         allowtransparency="true"
         class="lightwidget-widget xl:block hidden"
         style="width: 100%; border: 0; overflow: hidden"
+        title="Stroup Styles Instagram Feed"
       ></iframe>
       <iframe
         src="//lightwidget.com/widgets/e490eb077ecb515192601db81f0d80a7.html"
@@ -18,6 +19,7 @@
         allowtransparency="true"
         class="lightwidget-widget xl:hidden block"
         style="width: 100%; border: 0; overflow: hidden"
+        title="Stroup Styles Instagram Feed"
       ></iframe>
     </div>
   </div>

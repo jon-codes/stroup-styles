@@ -19,18 +19,25 @@
         netlify-honeypot="name"
         data-netlify="true"
       >
-        <input type="text" name="name" class="hidden" />
+        <input
+          type="text"
+          name="name"
+          class="hidden"
+          aria-label="This field is for spam filtering and should be left empty."
+        />
         <input
           type="email"
           name="email"
           required
           placeholder="Email"
+          aria-label="Email"
           class="border-light text-body placeholder-light hover:border-primary focus:border-primary focus:outline-none w-full px-3 py-1 mb-1 italic transition duration-200 ease-in-out border-2 rounded"
         />
         <textarea
-          placeholder="Tell me about yourself..."
           name="message"
           required
+          placeholder="Tell me about yourself..."
+          aria-label="Message"
           class="border-light text-body placeholder-light hover:border-primary focus:border-primary focus:outline-none w-full px-3 py-1 mb-6 italic transition duration-200 ease-in-out border-2 rounded resize-none"
           rows="2"
         />
@@ -75,7 +82,12 @@
       id="cta-images"
       class="xl:block xl:absolute xl:top-0 xl:right-0 xl:mr-12 hidden"
     >
-      <img src="~/assets/images/cta.png" alt="" />
+      <img
+        src="~/assets/images/cta.png"
+        width="599"
+        height="770"
+        alt="Stylized photo of hair design with logo"
+      />
     </div>
   </div>
 </template>
