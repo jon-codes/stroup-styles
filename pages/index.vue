@@ -69,7 +69,7 @@
                 viewBox="0 0 15.054 15.675"
                 class="stroke-current"
                 style="
-                  fill: none;
+                  fill: transparent;
                   stroke-linecap: round;
                   stroke-linejoin: round;
                   stroke-width: 1.5px;
@@ -190,7 +190,7 @@
               viewBox="0 0 15.054 15.675"
               class="stroke-current"
               style="
-                fill: none;
+                fill: transparent;
                 stroke-linecap: round;
                 stroke-linejoin: round;
                 stroke-width: 1.5px;
@@ -234,11 +234,11 @@
         <input
           type="email"
           placeholder="Email"
-          class="hover:border-primary bg-primary focus:border-primary focus:outline-none w-full px-3 py-1 mb-1 text-lg italic text-white placeholder-white transition duration-200 ease-in-out border-2 border-white rounded"
+          class="hover:border-light bg-primary focus:border-light focus:outline-none w-full px-3 py-1 mb-1 text-lg italic text-white placeholder-white transition duration-200 ease-in-out border-2 border-white rounded"
         />
         <textarea
           placeholder="Tell me about yourself..."
-          class="hover:border-primary bg-primary focus:border-primary focus:outline-none w-full px-3 py-1 mb-6 text-lg italic text-white placeholder-white transition duration-200 ease-in-out border-2 border-white rounded resize-none"
+          class="hover:border-light bg-primary focus:border-light focus:outline-none w-full px-3 py-1 mb-6 text-lg italic text-white placeholder-white transition duration-200 ease-in-out border-2 border-white rounded resize-none"
           rows="2"
         />
         <button
@@ -248,20 +248,49 @@
         </button>
       </form>
     </div>
-    <div id="instagram" class="container max-w-lg px-4 mx-auto mt-20">
+    <div id="instagram" class="container px-4 mx-auto mt-20 mb-32">
       <h1 class="text-secondary text-5xl text-center">Shop the Look</h1>
       <h2 class="font-display -mb-7 -mt-3 text-3xl text-center">
         on instagram
       </h2>
-      <div class="bg-accent w-48 h-6 mx-auto mb-4"></div>
-      <div id="instagram-feed"></div>
+      <div class="bg-light w-48 h-6 mx-auto mb-20"></div>
+      <div id="instagram-feed">
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+        <iframe
+          src="//lightwidget.com/widgets/7b4c7b2982d25805af62b63cd73721b8.html"
+          scrolling="no"
+          allowtransparency="true"
+          class="lightwidget-widget"
+          style="width: 100%; border: 0; overflow: hidden"
+        ></iframe>
+      </div>
     </div>
-    <div id="footer"><p>© StroupStyles 2020.</p></div>
+    <div id="footer" class="container max-w-5xl px-4 mx-auto mb-12">
+      <div class="flex justify-center mb-4">
+        <a href="https://www.instagram.com/stroupstyles/" target="_none">
+          <img
+            src="~/assets/images/instagram.png"
+            alt=""
+            height="48"
+            width="48"
+          />
+        </a>
+      </div>
+
+      <p class="text-body text-center">© StroupStyles {{ currentYear }}.</p>
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    currentYear() {
+      const d = new Date();
+      return d.getFullYear();
+    },
+  },
+};
 </script>
 
 <style>
