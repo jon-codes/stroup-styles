@@ -5,12 +5,7 @@
   >
     <div id="cta-main" class="max-w-sm">
       <h1 class="text-secondary font-display mb-8 text-5xl">I'm sorry!</h1>
-      <p v-if="error.statusCode === 404" class="text-body mb-8">
-        The requested page was not found.
-      </p>
-      <p v-else class="text-body mb-8">
-        An error seems to have occurred on our end.
-      </p>
+      <p class="text-body mb-8">{{ error.message }}.</p>
       <nuxt-link
         to="/"
         class="bg-primary hover:bg-primary-hover focus:outline-none px-6 py-3 italic text-white transition duration-200 ease-in-out rounded"
@@ -23,7 +18,7 @@
 
 <script>
 export default {
-  props: ["error"],
+  props: { error: { type: Object, required: true } },
 };
 </script>
 
