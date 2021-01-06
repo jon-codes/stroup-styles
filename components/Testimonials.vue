@@ -112,7 +112,7 @@
           src="~/assets/images/bride-1.png"
           height="380"
           width="380"
-          class="mb-4"
+          class="mx-auto mb-4"
         />
         <h1 class="text-secondary mb-4 text-5xl leading-none text-center">
           Abigail Krause

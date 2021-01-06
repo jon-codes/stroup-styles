@@ -1,7 +1,7 @@
 <template>
   <div
     id="message"
-    class="container grid max-w-3xl grid-flow-col col-gap-20 px-4 mx-auto mb-32"
+    class="xl:text-left container grid max-w-sm grid-flow-col col-gap-20 px-4 mx-auto mb-32 text-center"
   >
     <div id="cta-main" class="max-w-sm">
       <h1 class="text-secondary font-display mb-8 text-5xl">Message sent!</h1>
