@@ -25,7 +25,7 @@ export default {
 
   buildModules: ["@nuxtjs/eslint-module", "@nuxtjs/tailwindcss"],
 
-  modules: ["nuxt-lazy-load"],
+  modules: [],
 
   build: {},
 };
