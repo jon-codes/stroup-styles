@@ -1,6 +1,6 @@
 <template>
-  <div id="navigation" class="container max-w-5xl px-4 mx-auto">
-    <div class="flex items-center mt-10 mb-32">
+  <div id="navigation" class="container max-w-6xl px-4 mx-auto">
+    <div class="flex items-center mt-20 mb-32">
       <nuxt-link to="/">
         <img
           src="~/assets/images/logo.png"

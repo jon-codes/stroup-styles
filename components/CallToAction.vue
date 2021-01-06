@@ -1,9 +1,6 @@
 <template>
-  <div
-    id="cta"
-    class="container grid max-w-3xl grid-flow-col col-gap-20 px-4 mx-auto"
-  >
-    <div id="cta-main" class="max-w-sm mb-32">
+  <div id="cta" class="container max-w-6xl px-4 mx-auto">
+    <div id="cta-main" class="max-w-sm mb-40 ml-24">
       <h1 class="text-secondary font-display mb-8 text-5xl">
         Simply beautiful
       </h1>
@@ -72,7 +69,10 @@
         </div>
       </form>
     </div>
-    <div id="cta-images" class="absolute top-0 right-0 flex mr-32">
+    <div
+      id="cta-images"
+      class="xl:block xl:absolute xl:top-0 xl:right-0 xl:mr-12 hidden"
+    >
       <img src="~/assets/images/cta.png" alt="" />
     </div>
   </div>

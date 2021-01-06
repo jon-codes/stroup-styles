@@ -5,7 +5,7 @@
     </h1>
 
     <form
-      name="contact"
+      name="contact-2"
       method="POST"
       action="/success"
       netlify-honeypot="name"
