@@ -3,8 +3,8 @@
     <img
       src="~/assets/images/about.webp"
       alt="Photo of Kathryn Stroup"
-      height="392px"
       width="489px"
+      height="392px"
       class="mx-auto mb-10"
     />
     <h1 class="text-secondary mb-1 text-5xl leading-none text-center">
