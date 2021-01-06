@@ -39,7 +39,13 @@
           excitement in the small in-betweens. I'd love to get to know you and
           your story. If you have any questions just message me below:
         </p>
-        <form name="contact" method="POST" data-netlify="true">
+        <form
+          name="contact"
+          method="POST"
+          netlify-honeypot="name"
+          data-netlify="true"
+        >
+          <input type="text" name="name" class="hidden" />
           <input
             type="email"
             name="email"
@@ -54,7 +60,7 @@
           />
           <div class="grid grid-flow-col">
             <button
-              type="sumbit"
+              type="submit"
               class="bg-primary hover:bg-primary-hover focus:outline-none px-6 py-2 italic text-white transition duration-200 ease-in-out rounded"
             >
               Get connected!
