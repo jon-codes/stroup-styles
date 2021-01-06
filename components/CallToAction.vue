@@ -1,10 +1,12 @@
 <template>
-  <div id="cta" class="container max-w-6xl px-4 mx-auto">
-    <div id="cta-main" class="max-w-sm mb-40 ml-24">
-      <h1 class="text-secondary font-display mb-8 text-5xl">
+  <div id="cta" class="xl:max-w-6xl xl:py-0 container px-4 py-8 mx-auto">
+    <div id="cta-main" class="xl:mb-40 xl:ml-24 max-w-sm mx-auto">
+      <h1
+        class="text-secondary xl:text-left font-display mb-8 text-5xl text-center"
+      >
         Simply beautiful
       </h1>
-      <p class="text-body mb-8">
+      <p class="text-body xl:text-left mb-8 text-center">
         My name is Kathryn Stroup, and my passion is helping others see the
         beauty I see, making their dreams a reality, and being a part of the
         excitement in the small in-betweens. I'd love to get to know you and
@@ -32,16 +34,16 @@
           class="border-light text-body placeholder-light hover:border-primary focus:border-primary focus:outline-none w-full px-3 py-1 mb-6 italic transition duration-200 ease-in-out border-2 rounded resize-none"
           rows="2"
         />
-        <div class="grid grid-flow-col">
+        <div class="xl:grid xl:grid-flow-col">
           <button
             type="submit"
-            class="bg-primary hover:bg-primary-hover focus:outline-none px-6 py-2 italic text-white transition duration-200 ease-in-out rounded"
+            class="bg-primary xl:mb-0 hover:bg-primary-hover focus:outline-none w-full px-6 py-2 mb-2 italic text-white transition duration-200 ease-in-out rounded"
           >
             Get connected!
           </button>
 
           <a
-            class="focus:outline-none hover:text-primary text-accent flex items-center justify-center px-6 py-2 italic transition duration-200 ease-in-out"
+            class="focus:outline-none hover:text-primary text-accent flex items-center justify-center w-full px-6 py-2 italic transition duration-200 ease-in-out"
             href="#instagram"
           >
             <span class="mr-2"> See more styles</span>

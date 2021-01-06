@@ -1,26 +1,27 @@
 <template>
-  <div id="navigation" class="container max-w-6xl px-4 mx-auto">
-    <div class="flex items-center mt-20 mb-32">
+  <div id="navigation" class="xl:max-w-6xl container px-4 mx-auto">
+    <div class="xl:mt-20 xl:mb-32 xl:mx-0 flex items-center mx-auto mt-6 mb-12">
       <nuxt-link to="/">
         <img
           src="~/assets/images/logo.png"
           alt="Stroup Styles logo"
-          class="mr-5"
+          class="sm:mr-5"
         />
       </nuxt-link>
+
       <nuxt-link
         to="/#about"
-        class="text-primary hover:text-primary-hover mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
+        class="text-primary hover:text-primary-hover sm:block hidden mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
         >About Me</nuxt-link
       >
       <nuxt-link
         to="/#instagram"
-        class="text-primary hover:text-primary-hover mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
+        class="text-primary hover:text-primary-hover sm:block hidden mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
         >See Styles</nuxt-link
       >
       <nuxt-link
         to="/#contact"
-        class="text-primary hover:text-primary-hover mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
+        class="text-primary hover:text-primary-hover sm:block hidden mr-5 italic font-semibold tracking-normal transition duration-200 ease-in-out"
         >Get Connected</nuxt-link
       >
     </div>

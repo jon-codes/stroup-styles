@@ -1,5 +1,8 @@
 <template>
-  <div id="contact" class="bg-primary container max-w-full px-4 py-24">
+  <div
+    id="contact"
+    class="bg-primary xl:mb-0 container max-w-full px-4 py-24 mb-16"
+  >
     <h1 class="font-display mb-8 text-5xl text-center text-white">
       Let's Talk
     </h1>
