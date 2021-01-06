@@ -25,7 +25,9 @@ export default {
 
   buildModules: ["@nuxtjs/eslint-module", "@nuxtjs/tailwindcss"],
 
-  modules: [],
+  modules: ["@nuxtjs/google-analytics"],
+
+  googleAnalytics: { id: "G-XHFWH895XN", dev: false },
 
   build: {},
 };
