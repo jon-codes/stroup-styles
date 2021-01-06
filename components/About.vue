@@ -7,7 +7,9 @@
       width="489px"
       class="mx-auto mb-10"
     />
-    <h1 class="text-secondary mb-1 text-5xl text-center">Behind the Chair</h1>
+    <h1 class="text-secondary mb-1 text-5xl leading-none text-center">
+      Behind the Chair
+    </h1>
     <p class="text-body max-w-lg mx-auto mb-2 leading-tight text-center">
       I have always found joy in caring for others; in the little daily things,
       making a meal for friends, or simply talking about life. Bridal hair has
