@@ -13,6 +13,53 @@ export default {
         content:
           "On-site formal hair stylist helping brides feel their most beautiful on their wedding day.",
       },
+      {
+        hid: "twitter:card",
+        name: "twitter:card",
+        content: "Stroup Styles",
+      },
+      {
+        hid: "twitter:title",
+        name: "twitter:title",
+        content: "Stroup Styles",
+      },
+      {
+        hid: "twitter:description",
+        name: "twitter:description",
+        content:
+          "On-site formal hair stylist helping brides feel their most beautiful on their wedding day.",
+      },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content: "~/assets/images/cta.webp",
+      },
+      {
+        hid: "og:site_name",
+        name: "og:site_name",
+        content: "Stroup Styles",
+      },
+      {
+        hid: "og:type",
+        name: "og:type",
+        content: "website",
+      },
+      {
+        hid: "og:url",
+        name: "og:url",
+        content: "https://stroupstyles.com",
+      },
+      {
+        hid: "og:title",
+        name: "og:title",
+        content: "Stroup Styles",
+      },
+      {
+        hid: "og:description",
+        name: "og:description",
+        content:
+          "On-site formal hair stylist helping brides feel their most beautiful on their wedding day.",
+      },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
@@ -23,11 +70,17 @@ export default {
 
   components: true,
 
-  buildModules: ["@nuxtjs/eslint-module", "@nuxtjs/tailwindcss"],
+  buildModules: [
+    "@nuxtjs/eslint-module",
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-analytics",
+  ],
 
-  modules: ["@nuxtjs/google-analytics"],
+  googleAnalytics: {
+    id: "UA-31686368-2",
+  },
 
-  googleAnalytics: { id: "G-XHFWH895XN", dev: false },
+  modules: [],
 
   build: {},
 };
