@@ -19,6 +19,11 @@ export default {
           "On-site formal hair stylist helping brides feel their most beautiful on their wedding day.",
       },
       {
+        hid: "image",
+        name: "image",
+        content: "https://stroupstyles.com/social.webp",
+      },
+      {
         hid: "og-type",
         name: "og:type",
         content: "website",
@@ -42,7 +47,7 @@ export default {
       {
         hid: "og-image",
         name: "og:image",
-        content: "cta.webp",
+        content: "https://stroupstyles.com/social.webp",
       },
       {
         hid: "twitter-card",
@@ -68,7 +73,7 @@ export default {
       {
         hid: "twitter-image",
         name: "twitter:image",
-        content: "cta.webp",
+        content: "https://stroupstyles.com/social.webp",
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
