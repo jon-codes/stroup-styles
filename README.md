@@ -4,7 +4,7 @@
 
 ![Stroup Styles Logo](https://github.com/jon-codes/stroup-styles/blob/media/logo.png?raw=true)
 
-![Website Desktop Preview](https://github.com/jon-codes/stroup-styles/blob/media/desktop.png?raw=true)
+![Website Desktop Preview](https://github.com/jon-codes/stroup-styles/blob/media/desktop.png?raw=true&size=200)
 
 ![Website Mobile Preview](https://github.com/jon-codes/stroup-styles/blob/media/mobile.png?raw=true)
 
