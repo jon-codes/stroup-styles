@@ -6,8 +6,6 @@
     <div id="instagram-feed">
       <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
 
-      <!-- Desktop -->
-      <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
       <iframe
         src="https://cdn.lightwidget.com/widgets/32507e45a588582298710cc0f836a327.html"
         scrolling="no"
