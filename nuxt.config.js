@@ -42,7 +42,7 @@ export default {
       {
         hid: "og-image",
         name: "og:image",
-        content: "~/assets/images/cta.webp",
+        content: "cta.webp",
       },
       {
         hid: "twitter-card",
@@ -68,7 +68,7 @@ export default {
       {
         hid: "twitter-image",
         name: "twitter:image",
-        content: "~/assets/images/cta.webp",
+        content: "cta.webp",
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
