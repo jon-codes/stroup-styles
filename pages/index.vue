@@ -11,7 +11,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      script: [
+        {
+          src: "https://cdn.lightwidget.com/widgets/lightwidget.js",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style>

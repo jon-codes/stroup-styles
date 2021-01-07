@@ -8,55 +8,13 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
+        hid: "title",
+        name: "title",
+        content: "Stroup Styles",
+      },
+      {
         hid: "description",
         name: "description",
-        content:
-          "On-site formal hair stylist helping brides feel their most beautiful on their wedding day.",
-      },
-      {
-        hid: "twitter:card",
-        name: "twitter:card",
-        content: "Stroup Styles",
-      },
-      {
-        hid: "twitter:title",
-        name: "twitter:title",
-        content: "Stroup Styles",
-      },
-      {
-        hid: "twitter:description",
-        name: "twitter:description",
-        content:
-          "On-site formal hair stylist helping brides feel their most beautiful on their wedding day.",
-      },
-      {
-        hid: "og:image",
-        property: "og:image",
-        content: "~/assets/images/cta.webp",
-      },
-      {
-        hid: "og:site_name",
-        name: "og:site_name",
-        content: "Stroup Styles",
-      },
-      {
-        hid: "og:type",
-        name: "og:type",
-        content: "website",
-      },
-      {
-        hid: "og:url",
-        name: "og:url",
-        content: "https://stroupstyles.com",
-      },
-      {
-        hid: "og:title",
-        name: "og:title",
-        content: "Stroup Styles",
-      },
-      {
-        hid: "og:description",
-        name: "og:description",
         content:
           "On-site formal hair stylist helping brides feel their most beautiful on their wedding day.",
       },
