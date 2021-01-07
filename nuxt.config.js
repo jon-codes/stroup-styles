@@ -25,55 +25,34 @@ export default {
       },
       {
         hid: "og-type",
-        name: "og:type",
+        property: "og:type",
         content: "website",
       },
       {
         hid: "og-url",
-        name: "og:url",
+        property: "og:url",
         content: "https://stroupstyles.com/",
       },
       {
         hid: "og-title",
-        name: "og:title",
+        property: "og:title",
         content: "Stroup Styles",
       },
       {
         hid: "og-description",
-        name: "og:description",
+        property: "og:description",
         content:
           "On-site formal hair stylist helping brides feel their most beautiful on their wedding day.",
       },
       {
         hid: "og-image",
-        name: "og:image",
+        property: "og:image",
         content: "https://stroupstyles.com/social.webp",
       },
       {
         hid: "twitter-card",
         name: "twitter:card",
         content: "summary_large_image",
-      },
-      {
-        hid: "twitter-url",
-        name: "twitter:url",
-        content: "https://stroupstyles.com/",
-      },
-      {
-        hid: "twitter-title",
-        name: "twitter:title",
-        content: "Stroup Styles",
-      },
-      {
-        hid: "twitter-description",
-        name: "twitter:description",
-        content:
-          "On-site formal hair stylist helping brides feel their most beautiful on their wedding day.",
-      },
-      {
-        hid: "twitter-image",
-        name: "twitter:image",
-        content: "https://stroupstyles.com/social.webp",
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
