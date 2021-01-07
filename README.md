@@ -1,4 +1,4 @@
-# stroup-styles
+# Stroup Styles
 
 ![Netlify](https://img.shields.io/netlify/7510c99c-1caf-405f-be3d-19f554fcc1e3)
 
