@@ -2,6 +2,12 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7510c99c-1caf-405f-be3d-19f554fcc1e3/deploy-status)](https://app.netlify.com/sites/stroup-styles/deploys)
 
+![Stroup Styles Logo](https://github.com/jon-codes/stroup-styles/blob/media/logo.png?raw=true)
+
+![Website Desktop Preview](https://github.com/jon-codes/stroup-styles/blob/media/desktop.png?raw=true)
+
+![Website Mobile Preview](https://github.com/jon-codes/stroup-styles/blob/media/mobile.png?raw=true)
+
 ## Build Setup
 
 ```bash
