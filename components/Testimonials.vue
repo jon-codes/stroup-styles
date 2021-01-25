@@ -9,7 +9,7 @@
       id="testimonials-main"
       class="xl:grid hidden grid-flow-col grid-cols-12 col-gap-10"
     >
-      <div
+      <!-- <div
         id="testimonials-arrow-left"
         class="text-accent hover:text-primary justify-self-center self-center col-span-1"
       >
@@ -25,7 +25,7 @@
             transform="translate(-11.251 -6.194)"
           />
         </svg>
-      </div>
+      </div> -->
       <div id="testimonials-main-left" class="col-span-6">
         <img
           src="~/assets/images/bride-1.webp"
@@ -71,7 +71,7 @@
           </svg>
         </a>
       </div>
-      <div
+      <!-- <div
         id="testimonials-arrow-right"
         class="text-accent hover:text-primary justify-self-center self-center col-span-1"
       >
@@ -87,7 +87,7 @@
             transform="translate(-11.246 -6.196)"
           />
         </svg>
-      </div>
+      </div> -->
     </div>
 
     <!-- Mobile -->
