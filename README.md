@@ -2,7 +2,7 @@
 
 <h1>Stroup Styles</h1>
 
-Main website for [Stroup Styles](https://stroupstyles.com), an on-site formal hair stylist based in Atlanta, GA.
+Main website for [Stroup Styles](https://stroup-styles.netlify.app), an on-site formal hair stylist based in Atlanta, GA.
 
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fstroupstyles.com)
 ![Netlify](https://img.shields.io/netlify/7510c99c-1caf-405f-be3d-19f554fcc1e3)
